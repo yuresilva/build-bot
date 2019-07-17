@@ -9,14 +9,13 @@
 
 <script>
 import NavBar from './components/NavBar.vue';
-// import HomePage from './home/HomePage.vue';
+
 import RobotBuilder from './build/RobotBuilder.vue';
 
 export default {
   name: 'app',
   components: {
     NavBar,
-    //  HomePage,
     RobotBuilder,
   },
 };
